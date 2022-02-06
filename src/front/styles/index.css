@@ -1,3 +1,30 @@
-/* 
-    General Styles used on every website (Don't Repeat Yourself)
-*/
+li {
+  list-style-type: none;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Barlow:wght@600&display=swap");
+
+h1 {
+  font-family: "Anton", sans-serif;
+}
+
+* {
+  font-family: "Barlow", sans-serif;
+}
+
+body {
+  background-color: black;
+}
+
+.starButton {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.on {
+  color: gold;
+}
+.off {
+  color: #ccc;
+}
