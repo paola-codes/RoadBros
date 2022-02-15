@@ -1,8 +1,7 @@
 const getState = ({ getStore, getActions, setStore }) => {
   return {
     store: {
-      backEndUrl:
-        "https://3001-4geeksacademy-reactflask-xemyhc771ad.ws-us31.gitpod.io",
+      backEndUrl: process.env.BACKEND_URL,
       loggedUser: {},
       listOfVehicles: [],
       listOfRequests: [],
