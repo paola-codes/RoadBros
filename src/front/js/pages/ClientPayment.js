@@ -72,8 +72,8 @@ export const ClientPayment = () => {
           </div>
         </div>
       </div>
-      <Link to="/ClientServiceManagement">
-        <button className="btn btn-warning m-3">Back to Home</button>
+      <Link to="/home">
+        <button className="btn btn-warning m-3">Finish Service</button>
       </Link>
     </div>
   );
