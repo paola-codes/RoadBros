@@ -72,8 +72,13 @@ export const ClientPayment = () => {
           </div>
         </div>
       </div>
-      <Link to="/home">
-        <button className="btn btn-warning m-3">Finish Service</button>
+      <Link to="/">
+        <button
+          className="btn btn-warning m-3"
+          onClick={() => actions.logOut()}
+        >
+          Finish Service
+        </button>
       </Link>
     </div>
   );
